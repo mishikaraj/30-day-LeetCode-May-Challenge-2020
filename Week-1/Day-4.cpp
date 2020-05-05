@@ -23,3 +23,9 @@ public:
         return (i-1)^num; 
     }
 }; 
+
+
+# num: 5 = 101; 
+# i=1, after i<<1 shift left, i=10;
+# i=100,i=1000; now i>num;
+# 1000-1= 111; 111^101= 010 
